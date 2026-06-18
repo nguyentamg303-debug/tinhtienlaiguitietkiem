@@ -1,7 +1,7 @@
 import streamlit as st
 st.image("logo.jpg")
 # Tiêu đề app
-st.title("APP TÍNH TIỀN GỬI TIẾT KIỆM_ĐỀ TÀI 2_minh tâm")
+st.title("APP TÍNH TIỀN GỬI TIẾT KIỆM_ĐỀ TÀI 2_ nguyễn minh tâm")
 # Nhập dữ liệu
 C = st.number_input("Nhập số tiền gửi (triệu đồng)",min_value=0.0,value=100.0)
 i = st.number_input("Nhập lãi suất tiết kiệm theo năm (%)", min_value=0.0,value=6.0)
